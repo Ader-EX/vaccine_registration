@@ -1,0 +1,381 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@300;500&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  opacity: 80%;
+}
+.row {
+  display: flex;
+  padding-left: 100px;
+}
+
+nav {
+  width: 100%;
+  z-index: 10;
+  overflow: auto;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  top: 0;
+  padding: 30px 100px 30px 100px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+nav ul li {
+  display: inline;
+  list-style-type: none;
+  margin: 0px 10px;
+  float: right;
+  cursor: pointer;
+}
+
+nav img {
+  float: left;
+  max-width: 50%;
+}
+
+nav a {
+  font-size: 1.3em;
+  text-decoration: none;
+  color: black;
+  opacity: 80%;
+  margin: 20px;
+}
+
+nav a:hover {
+  color: #74b5fc;
+}
+
+.beranda {
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+  width: 100%;
+  padding: 200px 100px 50px 100px;
+}
+
+.beranda img {
+  float: left;
+  margin-right: 200px;
+}
+
+#beranda-paragraph {
+  float: right;
+  padding: 100px;
+  font-size: 1.35em;
+}
+
+#beranda-paragraph h1 {
+  color: #004289;
+  font-weight: 800;
+}
+
+#beranda-paragraph p {
+  opacity: 80%;
+}
+
+#h2-beranda {
+  font-style: oblique;
+  color: #74b5fc;
+}
+
+#p-beranda {
+  color: #004289;
+  font-style: italic;
+}
+
+footer {
+  background-color: #299dfb;
+  text-align: center;
+  color: white;
+  padding: 100px;
+  font-size: 1.2em;
+}
+
+#infografis {
+  padding: 10%;
+  max-width: 100%;
+  max-height: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+#jadwalvaksin {
+  background-color: #ecf5ff;
+  padding: 100px;
+}
+
+#jadwal_title {
+  text-align: center;
+  font-size: 1.5em;
+  padding: 50px;
+  color: #004289;
+  font-weight: normal;
+}
+
+#jadwal_title p {
+  opacity: 80%;
+}
+
+#judul-aplikasi {
+  text-align: center;
+  padding: 5% 30% 2% 30%;
+  font-size: 1.25em;
+}
+#judul-aplikasi h2 {
+  font-size: 1.75em;
+  color: #299dfb;
+}
+
+.pengertian-flex {
+  display: flex;
+  flex-direction: row;
+  padding: 2% 10%;
+  margin: 2.5%;
+  align-items: center;
+}
+
+.pengertian-text {
+  margin-left: 10px;
+  padding: 2%;
+  font-size: 1.3em;
+}
+
+.pengertian-text b,
+.pengertian-text h3 {
+  color: #299dfb;
+}
+
+.pengertian-text h3 {
+  font-weight: normal;
+}
+
+.pengertian-text button {
+  background-color: #299dfb;
+  border-radius: 2.5%;
+  color: white;
+  border: none;
+  padding: 15px;
+  font-size: 1.1em;
+  cursor: pointer;
+}
+.pengertian-text button:hover {
+  font-weight: 400;
+  background-color: #207cc7;
+  transition: 0.5s;
+}
+
+.list-flex {
+  display: flex;
+  flex-direction: row;
+  margin: 2%;
+  padding: 1%;
+}
+
+.list-flex img {
+  float: left;
+  max-width: 10%;
+  height: auto;
+  margin: auto;
+  margin-right: 2.5%;
+  display: block;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  justify-content: space-evenly;
+}
+
+.flex-card {
+  display: flex;
+  flex-direction: row;
+  margin: 30px;
+  flex-basis: 25%;
+}
+
+.flex-card img {
+  max-width: 30%;
+  display: block;
+  margin: auto;
+  margin-right: 10px;
+}
+
+#protokol {
+  background-color: #ecf5ff;
+  padding: 100px;
+}
+
+#protokol-title {
+  text-align: center;
+  font-size: 1.5em;
+  color: #004289;
+  margin-bottom: 50px;
+}
+
+#daftar_title {
+  text-align: center;
+  font-size: 1.5em;
+
+  padding: 100px;
+  opacity: 80%;
+}
+
+#list_daftar {
+  text-align: center;
+  font-size: 1.25em;
+  margin-bottom: 100px;
+  opacity: 80%;
+}
+
+#list_daftar p {
+  margin-bottom: 30px;
+}
+
+#list_daftar img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 5%;
+}
+
+#berita_title {
+  text-align: center;
+  font-size: 1.5em;
+  opacity: 80%;
+}
+
+#berita_isi {
+  padding: 100px 300px 100px 300px;
+}
+
+.berita-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  display: grid;
+  grid-template-columns: 450px;
+  grid-template-rows: 310px 210px 100px;
+  grid-template-areas: "image" "text";
+  background-color: white;
+  cursor: pointer;
+  border-radius: 2.5%;
+  transition: 0.5s ease;
+}
+
+.berita-card:hover {
+  transform: scale(1.1);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+  text-decoration: underline;
+}
+
+.img1 {
+  background: url("../assets/img/vaksinasi1.jpg");
+  background-size: cover;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  grid-area: image;
+}
+
+.img2 {
+  background: url("../assets/img/vaksinasi2.jpg");
+  background-size: cover;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  grid-area: image;
+}
+
+.img3 {
+  background: url("../assets/img/vaksinasi3.jpeg");
+  background-size: cover;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  grid-area: image;
+}
+
+.img4 {
+  background: url("../assets/img/vaksinasi4.jpeg");
+  background-size: cover;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  grid-area: image;
+}
+
+.berita-card-text .date {
+  color: #207cc7;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+.berita-card-text {
+  grid-area: text;
+  margin: 30px;
+}
+
+.berita-card-text h3:hover {
+  color: rgb(37, 164, 249);
+}
+.card-text {
+  font-size: 1.2em;
+}
+
+.card-text h3 {
+  font-weight: 700;
+}
+
+.innershadow {
+  -moz-box-shadow: inset 0 0 10px #000000;
+  -webkit-box-shadow: inset 0 0 10px #000000;
+  box-shadow: inset 0 0 10px #000000;
+}
+
+.shadow {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+.shadow:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card {
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 3%;
+  cursor: pointer;
+  padding: 50px;
+  background-color: white;
+}
+
+.card p {
+  opacity: 80%;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+.card:hover h3 {
+  color: #299dfb;
+}
+
+@media screen and (max-width: 768px) {
+  .row {
+    display: none;
+    float: none;
+  }
+}
